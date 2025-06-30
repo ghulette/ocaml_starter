@@ -5,6 +5,9 @@ all: build test
 build:
 	dune build -p $(PACKAGES)
 
+run:
+	dune exec ocaml_starter
+
 # test: build
 # 	# run tests in release mode to expose bug in #454
 # 	dune runtest --display=quiet --cache=disabled --no-buffer --force --profile=release
