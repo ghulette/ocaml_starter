@@ -19,7 +19,7 @@
  (name ocaml_starter)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml containers)
+ (depends ocaml containers (ounit2 :with-test))
  (tags
   ("add topics" "to describe" your project)))
 
